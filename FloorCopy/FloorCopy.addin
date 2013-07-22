@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>VC - Copy floor (Копировать пол)</Text>
+    <Description>Some description for FloorCopy</Description>
+    <Assembly>FloorCopy.dll</Assembly>
+    <FullClassName>FloorCopy.Command</FullClassName>
+    <ClientId>136c77bd-d185-4a28-9847-a9a584903ac7</ClientId>
+    <VendorId>VC</VendorId>
+    <VendorDescription></VendorDescription>
+  </AddIn>
+
+</RevitAddIns>
