@@ -10,4 +10,14 @@
     <VendorDescription></VendorDescription>
   </AddIn>
 
+  <AddIn Type="Command">
+    <Text>VC - Copy floor using BooleanOperations</Text>
+    <Description>Some description for FloorCopy</Description>
+    <Assembly>FloorCopy.dll</Assembly>
+    <FullClassName>FloorCopy.CopyFloorCommand</FullClassName>
+    <ClientId>654F458F-D78F-4AD8-B619-BB094758DE54</ClientId>
+    <VendorId>VC</VendorId>
+    <VendorDescription></VendorDescription>
+  </AddIn>
+
 </RevitAddIns>

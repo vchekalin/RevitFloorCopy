@@ -282,17 +282,4 @@ namespace FloorCopy
             return topFace;
         }
     }
-
-    public class FloorSelectionFilter : ISelectionFilter
-    {
-        public bool AllowElement(Element elem)
-        {
-            return elem is Floor;
-        }
-
-        public bool AllowReference(Reference reference, XYZ position)
-        {
-            throw new NotImplementedException();
-        }
-    }
 }
